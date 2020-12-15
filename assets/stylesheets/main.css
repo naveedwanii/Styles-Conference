@@ -106,7 +106,10 @@ h1, h3, h4, h5, p{
   padding: 40px 0 22px 0;
   float: left;
   font-size: 48px;
-  line-height: 44px
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  text-transform: uppercase
 }
 
 .primary-footer small{
@@ -168,13 +171,15 @@ h4 {
 h5{
   color: #a9b2b9;
   font-size: 14px; 
-  font-weight: 400
+  font-weight: 400;
+  text-transform: uppercase
 }
 
 /* Links */
 
 a{
   color: #648880;
+  text-decoration: none
 }
 
 a:hover{
@@ -183,23 +188,34 @@ a:hover{
 
 .tagline{
   margin: 66px 0 22px 0;
+  text-align: center
 }
 
 .primary-nav{
   font-size: 14px;
-  font-weight: 400
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase
 }
 
 .hero {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align: center
 }
 .hero h2 {
   font-size: 36px;
 }
 .hero p {
   font-size: 24px;
+  font-weight: 100
 }
 .teaser a:hover h3{
   color: #a9b2b9;
+}
+
+/*  Navigation  */
+
+nav{
+  text-align: right
 }
