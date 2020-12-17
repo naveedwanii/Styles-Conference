@@ -3,7 +3,7 @@
 */
 
 
-/*
+
 
 *,
 *:before,
@@ -14,7 +14,7 @@
 }
 
 
-*/
+
 
 /* Clearfix */
 
@@ -136,34 +136,19 @@ h1, h3, h4, h5, p{
   padding-top: 44px
 }
 
-/*
-.col-1-3{
-  width: 30%;
-  
-}
 
 
-
-.col-1-3{
-  display: inline-block;
-  vertical-align: top
-}
-
-.grid, .col-1-3, .col-2-3{
-  padding-left: 15px;
-  padding-right: 15px
-}
-
-*/
 .container,
 .grid {
   margin: 0 auto;
   width: 960px;
 }
+
 .container {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .grid,
 .col-1-3,
 .col-2-3 {
@@ -242,6 +227,7 @@ a:hover{
 }
 
 .hero {
+  
   color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
@@ -286,11 +272,13 @@ nav{
   min-width: 960px;
 }
 .row {
+  
   background: #fff;
   padding: 66px 0 44px 0;
 }
 .row-alt {
-   background: #cbe2c1;
+   background:red;
+   /*background: #cbe2c1; */
    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
@@ -412,5 +400,74 @@ textarea {
   background: #77a198;
 }
 
+/* Schedule */
 
+table {
+  margin-bottom: 44px;
+  width: 100%
+}
+
+table:last-child{
+  margin-bottom: 0;
+}
+
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+td {
+  width: 40%;
+  color: #648880;
+}
+
+thead{
+  line-height: 44px;
+
+}
+
+thead th{
+  color: #648880;
+  font-size: 24px;
+} 
+
+tbody th{
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+
+tbody td {
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
+}
+tbody td:first-of-type {
+  padding-right: 15px;
+}
+tbody td:last-of-type {
+  padding-left: 15px;
+}
+tbody td:only-of-type {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table a {
+  color: #888;
+}
+table h4 {
+  margin-bottom: 0;
+}
+
+.schedule-offset {
+  color: #a9b2b9;
+}
 
